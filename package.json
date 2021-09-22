@@ -1,0 +1,21 @@
+{
+    "name": "site-version-control",
+    "version": "1.0.0",
+    "dependencies": {
+        "laravel-mix": "^6.0.25"
+    },
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.35.1",
+        "sass-loader": "^12.1.0"
+    }
+}

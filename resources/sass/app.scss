@@ -1,0 +1,30 @@
+@import "variables";
+
+.svc-page {
+    display: flex;
+
+    .svc-main {
+        margin-right: 1rem;
+    }
+
+    .svc-sidebar {
+        width: 300px;
+
+        &--element {
+            float: none;
+
+            margin-right: 0;
+        }
+    }
+
+    .svc-form-button {
+        width: 100%;
+
+        margin: 2px 0;
+    }
+
+    .svc-additional-information {
+        font-size: 0.75rem;
+        font-style: italic;
+    }
+}

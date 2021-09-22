@@ -1,0 +1,21 @@
+.svc-page {
+  display: flex;
+}
+.svc-page .svc-main {
+  margin-right: 1rem;
+}
+.svc-page .svc-sidebar {
+  width: 300px;
+}
+.svc-page .svc-sidebar--element {
+  float: none;
+  margin-right: 0;
+}
+.svc-page .svc-form-button {
+  width: 100%;
+  margin: 2px 0;
+}
+.svc-page .svc-additional-information {
+  font-size: 0.75rem;
+  font-style: italic;
+}
